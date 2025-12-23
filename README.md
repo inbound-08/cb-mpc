@@ -135,6 +135,16 @@ This project requires a C++17 compliant compiler. We strongly recommend using **
   - To install and use upstream Clang:
     1.  Install LLVM (which includes Clang) via Homebrew: `brew install llvm`
     2.  Configure CMake to use it by setting flags during the _initial_ configuration. Alternatively, you can `export CC=... CXX=...` _before_ running CMake in a _clean_ build directory.
+    
+## Overview
+
+This repository contains experimental components and utilities related to MPC (Multi-Party Computation) workflows.
+
+The code here is primarily intended for research, prototyping, and internal experimentation. It may include partial implementations, helper scripts, or reference examples used to explore MPC-based designs and integrations.
+
+The project is not guaranteed to be production-ready and may change frequently. APIs, configuration options, and internal structure should be considered unstable unless explicitly documented otherwise.
+
+Contributions, feedback, and discussion are welcome, especially around improving clarity, documentation, and developer experience.
 
 ### Makefile
 
